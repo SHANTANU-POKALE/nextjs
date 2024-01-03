@@ -1,3 +1,18 @@
+npx create-next-app my-nextjs-app
+cd my-nextjs-app
+
+npm install react-markdown
+
+npm run dev
+
+npm run build
+vercel --prod
+
+
+
+
+
+
 Consistent Naming:
 Consider maintaining a consistent naming convention for keys. For instance, you have "inclusions" and "about_instructor" with underscores, but "what_to_expect" and "key_topics" with camel case. Consistency makes the JSON structure cleaner.
 
